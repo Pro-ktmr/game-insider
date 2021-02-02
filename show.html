@@ -32,7 +32,10 @@
           $('#role').val('マスター');
           $('#odai').val(odai);
         }
-        else if(isInsider) $('#role').val('インサイダー');
+        else if(isInsider){
+          $('#role').val('インサイダー');
+          $('#odai').val(odai);
+        }
         else $('#role').val('庶民');
         $('#sec').val(list['sec']);
         setInterval(function(){
